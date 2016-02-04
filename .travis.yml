@@ -5,6 +5,9 @@ python:
   - "2.7"
   - "3.2"
   - "3.3"
+  - "3.4"
+  - "3.5"
+  - "nightly"
 install:
   - python setup.py -q install
   - pip install pytest-cov coveralls
